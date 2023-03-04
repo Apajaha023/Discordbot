@@ -13,12 +13,12 @@ from discord.ext import commands
 from re import search
 import threading
 import psutil
-token = "MTA0MDk5MjE4NjE5MzQyNDQ3NQ.Gf--wg.fJcwD3xBEyXssnph1IzxJlZU0SCxmJdD3LutgU"
-buyers = [743135879802912879]
-admins = [743135879802912879]
-ownerList = [743135879802912879]
+token = "MTA4MTUyMzc0MDMzODI5MDcyOQ.GcpGFD.RC4BIeT1svyu9F0l00TnnxI-LydHg6d_tIKGJ0"
+buyers = [847455634068996096]
+admins = [847455634068996096]
+ownerList = [847455634068996096]
 
-prefix = "+"
+prefix = "!"
 intents = discord.Intents.all()
 intents.messages = True
 bot = commands.Bot(command_prefix=prefix,help_command=None, intents=intents)
